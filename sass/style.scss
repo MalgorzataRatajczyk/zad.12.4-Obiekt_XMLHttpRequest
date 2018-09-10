@@ -16,13 +16,17 @@ div {
         width: 500px;
         height: 100px;
         border: 2px solid black;
-        border-radius: 25%;
+        border-radius: 5%;
         background-color: gold;
         padding: 10px;
         font-size: 30px;
         font-family: 'Arial';
         font-weight: bold;
         text-transform: uppercase;
+        &:hover {
+            transition: .2s ease-in;
+            transform: scale(1.1,1.1);
+        }
     }
     p {
         font-size: 25px;
